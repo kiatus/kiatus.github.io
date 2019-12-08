@@ -1,0 +1,52 @@
+<style>
+body {
+    margin: 0px;
+    background: black;
+}
+
+.con {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.a {
+    background: url("assets/img/cc4.png") repeat-x;
+    height: 38px;
+    animation: cloud 2.5s infinite linear;
+}
+.b {
+    background: url("assets/img/cc3.png") repeat-x;
+    height: 23px;
+    animation: cloud 2s infinite linear;
+}
+.c {
+    background: url("assets/img/cc2.png") repeat-x;
+    height: 30px;
+    animation: cloud 1.5s infinite linear;
+}
+.d {
+    background: url("assets/img/cc1.png") repeat-x;
+    height: 64px;
+    animation: cloud 1s infinite linear;
+}
+
+
+@keyframes cloud {
+    from {
+        background-position-x: 0px;
+    }
+    to {
+        background-position-x: -320px;
+    }
+}
+
+</style>
+<body>
+        <div class="con">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+        </div>
+    </body>
