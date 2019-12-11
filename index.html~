@@ -19,7 +19,7 @@
     </div>
     <!--</a>-->
     <div class="ytop">
-	    <img src="assets/images/leavenow.png">
+	    <p><img src="assets/images/leavenow.png"></p>
     </div>
 </body>
 </html>
