@@ -47,5 +47,4 @@ h1.xycenter {
 .ybottom {
 	position: absolute;
 	position: bottom;
-/*	text-align: center;*/
 }
