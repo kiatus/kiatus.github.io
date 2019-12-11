@@ -39,8 +39,12 @@ h1.xycenter {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.ybottom {
+.ytop {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
+}
+.ybottom {
+	position: absolute;
+	position: bottom;
 }

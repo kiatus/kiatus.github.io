@@ -7,7 +7,7 @@ body {
     font-family: MS UI Gothic;
 }
 h1.xycenter {
-	color: #FFF:
+	color: #FFF;
 }
 .bg {
     background: url(assets/images/bg0.png);
@@ -39,8 +39,13 @@ h1.xycenter {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.ybottom {
+.ytop {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
+}
+.ybottom {
+	position: absolute;
+	position: bottom;
+/*	text-align: center;*/
 }
