@@ -1,3 +1,10 @@
+*
+{
+	/* when are browser devs gonna make this field consistent for once */
+	image-rendering: optimizeSpeed;
+	image-rendering: pixelated;
+}
+
 body
 {
 	background: #6d2379;
